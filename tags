@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Matrix	gauss_method.cpp	/^class Matrix$/;"	c	file:
+augmented_matrix	gauss_method.cpp	/^void augmented_matrix(const Matrix & a, const Matrix & b, Matrix & ab)$/;"	f
+back_substitution	gauss_method.cpp	/^void back_substitution(const Matrix & ab, Matrix & x)$/;"	f
+elementType	gauss_method.cpp	/^typedef float elementType;$/;"	t	file:
+gauss_method	gauss_method.cpp	/^void gauss_method(const  Matrix & a,$/;"	f
+get_col	gauss_method.cpp	/^	size_t get_col() const$/;"	f	class:Matrix
+get_element	gauss_method.cpp	/^	elementType & get_element(const std::size_t i, const std::size_t j) const$/;"	f	class:Matrix
+get_row	gauss_method.cpp	/^	size_t get_row() const$/;"	f	class:Matrix
+initialize	gauss_method.cpp	/^	void initialize(const std::size_t r, const std::size_t c)$/;"	f	class:Matrix
+mColCount	gauss_method.cpp	/^	size_t mColCount;$/;"	m	class:Matrix	file:
+mData	gauss_method.cpp	/^	elementType * mData;$/;"	m	class:Matrix	file:
+mRowCount	gauss_method.cpp	/^	size_t mRowCount;$/;"	m	class:Matrix	file:
+main	gauss_method.cpp	/^int main()$/;"	f
+my_abs	gauss_method.cpp	/^elementType   my_abs( elementType   var)$/;"	f
+my_round	gauss_method.cpp	/^elementType  my_round( elementType & varm)$/;"	f
+pivotisation_row	gauss_method.cpp	/^void pivotisation_row(Matrix & ab)$/;"	f
+read_matrix	gauss_method.cpp	/^void read_matrix(Matrix & matrix, std::ifstream & like_pipe)$/;"	f
+set_element	gauss_method.cpp	/^	void set_element(const std::size_t i, const std::size_t j, const elementType e)$/;"	f	class:Matrix
+show_matrix	gauss_method.cpp	/^void show_matrix(Matrix & x) \/\/if you need to watch calculation step by step$/;"	f
+write_matrix	gauss_method.cpp	/^void write_matrix(const Matrix & matrix , std::ofstream & like_pipe)$/;"	f
